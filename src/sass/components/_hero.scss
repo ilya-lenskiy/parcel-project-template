@@ -494,12 +494,16 @@
 }
 
 .hero-milk-anker {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: auto;
   margin-top: 7px;
   width: 18px;
   height: 18px;
   background-color: #fff;
   border-radius: 50%;
+
   @media screen and (min-width: $desktop-width) {
     width: 26px;
     height: 26px;
@@ -608,5 +612,8 @@
 
   li {
     margin-left: 35px;
+    a {
+      white-space: nowrap;
+    }
   }
 }
