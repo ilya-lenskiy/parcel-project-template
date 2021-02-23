@@ -310,14 +310,6 @@ summary {
   src: local(""), url("/titan-one-v8-latin-regular.5ecfba8a.eot?#iefix") format("embedded-opentype"), url("/titan-one-v8-latin-regular.c7773417.woff2") format("woff2"), url("/titan-one-v8-latin-regular.7f3e05d4.woff") format("woff"), url("/titan-one-v8-latin-regular.289eb43c.ttf") format("truetype"), url("/titan-one-v8-latin-regular.6dce54aa.svg#TitanOne") format("svg");
   /* Legacy iOS */
 }
-.container-reviews {
-  min-width: 320px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
 html {
   box-sizing: border-box;
 }
@@ -421,22 +413,22 @@ li {
   }
 }
 
+.container-reviews {
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 @media screen and (min-width: 768px) {
   .container-reviews {
-    min-width: 768px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 34px;
-    padding-right: 34px;
+    width: 700px;
+    padding: 0;
   }
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1200px) {
   .container-reviews {
-    max-width: 1280px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 115px;
-    padding-right: 115px;
+    width: 1050px;
   }
 }
 
@@ -899,14 +891,6 @@ button#slick-slide-control02 {
   width: 10px;
   height: 10px;
   fill: #d41443;
-}
-
-.container-reviews {
-  min-width: 320px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
 .font-for-header {
