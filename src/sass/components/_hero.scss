@@ -304,7 +304,7 @@
   align-items: center;
   text-align: center;
   .menu-buy-now-arrow {
-    margin-left: 16px;
+    margin-left: 12px;
     font-weight: 900;
   }
 }
@@ -558,8 +558,8 @@
     &::after {
       content: '';
       position: absolute;
-      top: -2px;
-      left: 85px;
+      top: -4px;
+      left: 99px;
       width: 16px;
       height: 16px;
       border-radius: 50%;
@@ -616,4 +616,9 @@
       white-space: nowrap;
     }
   }
+}
+
+.header-cafes-count {
+  margin-top: 0;
+  margin-right: 24px;
 }
