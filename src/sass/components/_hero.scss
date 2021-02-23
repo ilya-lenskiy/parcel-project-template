@@ -558,8 +558,8 @@
     &::after {
       content: '';
       position: absolute;
-      top: -4px;
-      left: 99px;
+      top: -2px;
+      left: 114px;
       width: 16px;
       height: 16px;
       border-radius: 50%;
@@ -567,6 +567,8 @@
       background-color: $white-color;
 
       @media screen and (min-width: $desktop-width) {
+        top: -4px;
+        left: 99px;
         width: 30px;
         height: 30px;
       }
@@ -620,5 +622,8 @@
 
 .header-cafes-count {
   margin-top: 0;
-  margin-right: 24px;
+  margin-right: 0;
+  @media screen and (min-width: $desktop-width) {
+    margin-right: 24px;
+  }
 }
