@@ -1,42 +1,6 @@
-.contacts {
-  background-color: $bgc-secondary-color;
-  @media screen and (min-width: 1280px) {
-    background-image: url(../images/contacts/sectionbg2.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
-}
-
-.contacts__container {
-  max-width: 280px;
-  margin-right: auto;
-  margin-left: auto;
-  @media screen and (min-width: 768px) {
-    max-width: 700px;
-  }
-  @media screen and (min-width: 1280px) {
-    max-width: 1050px;
-  }
-}
-.contacts__list {
-  position: relative;
-  top: -84px;
-  @media screen and (min-width: 768px) {
-    top: 0%;
-    display: flex;
-    flex-wrap: nowrap;
-    width: 100%;
-    margin-bottom: 81px;
-    @media screen and (min-width: 1280px) {
-      margin-bottom: 86px;
-    }
-  }
-}
-
 .contacts__card {
   margin-left: auto;
   margin-right: auto;
-  margin-top: -102px;
   margin-bottom: 20px;
   padding-top: 43px;
   padding-bottom: 43px;
@@ -52,6 +16,7 @@
     max-width: 330px;
     padding-left: 30px;
     padding-right: 30px;
+    margin-top: -102px;
   }
   @media screen and (min-width: 1280px) {
     margin-right: 30px;
